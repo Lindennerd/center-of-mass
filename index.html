@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Center of Mass</title>
+        <style>
+            .bold {
+                font-weight: bold;
+            }
+
+            .warning {
+                color: red;
+            }
+
+            canvas {
+                height: 500;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <p class="bold">Load Image</p>
+        <p>
+            <input type="file" id="image" onchange="centerOfMass.loadImage(this)">
+        </p>
+        
+        <div id="result"></div>
+
+        <script src="./marvin.js"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>
